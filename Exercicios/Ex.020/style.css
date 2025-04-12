@@ -1,0 +1,40 @@
+@charset "UTF-8";
+body{
+    font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.principal{
+div{
+  
+   display: inline-block;
+    background-color:darkgrey;
+    border: 1px solid black;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+}}
+#d1:hover{
+    background-color: blue;
+}
+#d2:hover{
+    background-color: chartreuse;
+}
+#d3:hover{
+    background-color: #ffff00;
+}
+#d4:hover{
+    color: #ff0000;
+
+}
+div > p{
+    display: none;
+}
+div:hover > p{
+    text-align: center;
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: black;
+   width: 180px;
+}

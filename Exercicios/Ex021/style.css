@@ -1,0 +1,21 @@
+@charset "UTF-8";
+h1{ /*box-level*/
+    background-color: darkgrey;
+    width:388px;
+    height:66px;
+    border-color:black;
+    border-style: solid;
+    border-top-width:20px; 
+    margin-left: 50px;
+    padding: 42px 10px 10px 20px;
+    margin-bottom: 50px
+}
+a{/*box-inline lavel*/
+background-color: aquamarine;
+border-radius: 10px;
+padding:10px 10px 10px 10px ;
+border-bottom: solid;
+border-bottom-color: black;
+border-bottom-style:solid ;
+border-bottom-width: 4px;
+}

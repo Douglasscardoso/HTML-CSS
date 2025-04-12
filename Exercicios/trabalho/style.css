@@ -1,0 +1,44 @@
+body{
+
+    background: rgb(13,78,45);
+background: linear-gradient(201deg, rgba(13,78,45,0.9703264094955489) 0%, rgba(50,46,119,1) 47%, rgba(40,65,71,1) 68%);
+}
+    .conteiner{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display:flex;
+        flex-direction: row;
+        gap: 50px;
+        align-items: center;
+        
+    }
+    .tema{
+
+        display: flex;
+        flex-direction: row;
+    }
+    .trailer{
+    
+
+    }
+
+    .comteiner-botao{
+        position:absolute;
+        top: 80%;
+        left: 50%;
+
+        
+    }
+    .principal{
+        display: flex;
+        flex-direction:row;
+        margin-left: 30px;
+        margin-top: 40px;
+        gap: 10px;
+    }
+    .botao{ 
+
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        align-items: center;
+    }

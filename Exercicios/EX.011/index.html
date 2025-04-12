@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html5</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivios diferentes </p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/foto-g.png" type="image/png">
+        <source media="(min-width:750px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-p.png" alt="foto flexivel">
+    </picture>
+    <h2>vamos reproduzir audio</h2>
+    <audio preload="metadata" autoplay></audio>
+    <audio src="midia/R-Kali.mp3" controls autoplay></audio>
+    <video src="midia/video.C.mp4" controls autoplay></video>
+    
+</body>
+</html>
