@@ -33,7 +33,13 @@ header{
    width:100%;
    padding-top: 20px;
    padding-bottom: 20px;
+   position:sticky;
+   top: 0;
+  
  
+}
+a{
+   color: black;
 }
 
 nav{
@@ -44,6 +50,15 @@ nav{
   padding-left: 14px;
   gap: 60px;
   font-size: large;
+  margin-top: 20px;
+  margin-left: 450px;
+  margin-right: 450px;
+  border-radius: 10px;
+ 
+}
+nav:hover{
+
+  color: rgb(4, 70, 253);
  
 }
 main{
